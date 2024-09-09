@@ -1,11 +1,14 @@
 variable "bucket_name" { 
-    type = string
+    description = "GCS bucket name"
+    type        = string
 }
 
 variable "bucket_location" {
-    type = string
+    description = "GCS bucket location"
+    type        = string
 }
 
 variable "storage" {
-    type = string
+    description = "GCS bucket storage type"
+    type        = string
 }
